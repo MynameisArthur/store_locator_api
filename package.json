@@ -1,0 +1,28 @@
+{
+  "name": "store_locator_api",
+  "version": "1.0.0",
+  "description": "Made with [Brad's Traversy tutorial](https://www.youtube.com/watch?v=9FQrFah9rnc)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MynameisArthur/store_locator_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MynameisArthur/store_locator_api/issues"
+  },
+  "homepage": "https://github.com/MynameisArthur/store_locator_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "node-geocoder": "^3.25.0"
+  }
+}
